@@ -40,6 +40,7 @@ class QAHiddenStateVisualizer:
                                               method="pca",
                                               dims=2)
 
+            #python hidden_state_visualizer.py -s sample.json
             # build list with point information
             token_vectors = []
             for token_index, value in enumerate(layer_reduced[0]):  # iterate over x-values
